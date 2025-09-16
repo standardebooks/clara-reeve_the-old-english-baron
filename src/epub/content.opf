@@ -28,6 +28,13 @@
 		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.2 Level AA.</meta>
 		<dc:title id="title">The Old English Baron</dc:title>
 		<meta property="file-as" refines="#title">Old English Baron, The</meta>
+		<meta property="title-type" refines="#title">main</meta>
+		<dc:title id="subtitle">A Gothic Story</dc:title>
+		<meta property="file-as" refines="#subtitle">Gothic Story, A</meta>
+		<meta property="title-type" refines="#subtitle">subtitle</meta>
+		<dc:title id="fulltitle">The Old English Baron: A Gothic Story</dc:title>
+		<meta property="file-as" refines="#fulltitle">Old English Baron, The</meta>
+		<meta property="title-type" refines="#fulltitle">extended</meta>
 		<dc:subject id="subject-1">Historical fiction</dc:subject>
 		<dc:subject id="subject-2">Inheritance and succession -- Fiction</dc:subject>
 		<dc:subject id="subject-3">England -- Fiction</dc:subject>
@@ -46,40 +53,41 @@
 		<meta property="term" refines="#subject-5">sh2008108192</meta>
 		<meta property="authority" refines="#subject-6">LCSH</meta>
 		<meta property="term" refines="#subject-6">Unknown</meta>
-		<meta property="se:subject">TAG</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<meta property="se:subject">Fiction</meta>
+		<dc:description id="description">A Gothic tale of adventure, mystery, romance, and the supernatural.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;The story opens with Sir Phillip Harclay returning to England after years of foriegn service to find his friend Arthur Lord Lovel dead. Harclay discovers the estate inherited by his cousin Walter, who sold the family castle to Baron Fitz-Owen. Among the baron’s own children, Harclay takes notice of the adopted son Edmund, a peasant from the nearby village. The knight feels an immediate connection with the child and offers to adopt him as his own. From there, the tale continues with a mix of adventure, mystery, romance, and the supernatural, exposing the tragic fate of the Lovel family.&lt;/p&gt;
+			&lt;p&gt;&lt;i&gt;The Old English Baron&lt;/i&gt; was an influential, early Gothic novel. First published anonymously as &lt;i&gt;The Champion of Virtue&lt;/i&gt; in 1777, but republished a year later under the current title and &lt;a href="https://standardebooks.org/ebooks/clara-reeve"&gt;Reeve’s&lt;/a&gt; own name. Written as an offspring of &lt;a href="https://standardebooks.org/ebooks/horace-walpole"&gt;Walpole’s&lt;/a&gt; &lt;a href="https://standardebooks.org/ebooks/horace-walpole/the-castle-of-otranto"&gt;&lt;i&gt;The Castle of Otranto&lt;/i&gt;&lt;/a&gt;, the novel follows a similar plot. It retains some of the ghostly tropes that define the genre, but avoids the more fantastical elements of the predecessor, to achieve Reeve’s stated goal “to unite the most attractive and interesting circumstances of the ancient Romance and modern Novel.”&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/5182</dc:source>
-		<dc:source>IA_URL</dc:source>
-		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
+		<dc:source>https://archive.org/details/oldenglishbaron01reevgoog/</dc:source>
+    <meta property="se:production-notes">The Project Gutenberg transcription modernized the dialog by introducing quotes and paragraph breaks where appropriate, which this production retains.</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
-		<meta property="se:url.encyclopedia.wikipedia">EBOOK_WIKI_URL</meta>
+		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Old_English_Baron</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/clara-reeve_the-old-english-baron</meta>
 		<dc:creator id="author">Clara Reeve</dc:creator>
 		<meta property="file-as" refines="#author">Reeve, Clara</meta>
-		<meta property="se:name.person.full-name" refines="#author">CONTRIBUTOR_FULL_NAME</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author">CONTRIBUTOR_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">CONTRIBUTOR_NACOAF_URI</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Clara_Reeve</meta>
+		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n83008362</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<dc:contributor id="artist">COVER_ARTIST</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URI</meta>
+		<meta property="role" refines="#author" scheme="marc:relators">wpr</meta>
+		<dc:contributor id="artist">John Jackson</dc:contributor>
+		<meta property="file-as" refines="#artist">Jackson, John</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/John_Jackson_(painter)</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/nr92013131</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Jack Voller</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_SORT</meta>
+		<meta property="file-as" refines="#transcriber-1">Voller, Jack</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-2">David Widger</dc:contributor>
-		<meta property="file-as" refines="#transcriber-2">TRANSCRIBER_SORT</meta>
+		<meta property="file-as" refines="#transcriber-2">Widger, David</meta>
 		<meta property="se:url.authority.nacoaf" refines="#transcriber-2">http://id.loc.gov/authorities/names/no2011017869</meta>
 		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">PRODUCER_URL</meta>
+		<dc:contributor id="producer-1">Neil Pankey</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Pankey, Neil</meta>
+		<meta property="se:url.homepage" refines="#producer-1">https://github.com/neilpa</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
