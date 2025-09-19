@@ -48,3 +48,9 @@ footer{
 	text-align: initial;
 }
 /* End dedication */
+
+/* Custom */
+[id="the-old-english-baron"] strong:last-of-type{
+  text-transform: uppercase;
+}
+/* End custom */
