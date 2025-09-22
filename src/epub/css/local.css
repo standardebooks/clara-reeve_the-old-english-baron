@@ -18,19 +18,30 @@ footer{
 /* End letters */
 
 /* Dedication */
+[epub|type~="dedication"]{
+	margin: 1em 2em;
+}
+
+[epub|type~="dedication"] header p{
+	font-variant: small-caps;
+}
+
+[epub|type~="dedication"] header span{
+	font-size: smaller;
+}
+
 [epub|type~="dedication"] header [epub|type~="z3998:personal-name"]{
 	display: block;
 	font-size: larger;
-	font-variant: small-caps;
 	margin-bottom: .5em;
 	margin-top: .5em;
 }
 
-[epub|type~="dedication"] blockquote p:first-child{
+[epub|type~="dedication"] p:nth-of-type(1){
 	margin-bottom: .5em;
 }
 
-[epub|type~="dedication"] blockquote p:nth-of-type(2){
+[epub|type~="dedication"] p:nth-of-type(2){
 	text-indent: 0;
 }
 
