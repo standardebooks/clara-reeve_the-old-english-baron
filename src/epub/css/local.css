@@ -64,4 +64,8 @@ footer{
 [id="the-old-english-baron"] strong:last-of-type{
 	text-transform: uppercase;
 }
+
+[id="the-old-english-baron"] blockquote:nth-of-type(6) [epub|type~="z3998:salutation"]{
+	font-variant: normal;
+}
 /* End custom */
