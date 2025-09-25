@@ -18,27 +18,12 @@ footer{
 /* End letters */
 
 /* Dedication */
-[epub|type~="dedication"]{
-	margin: 1em 2em;
-}
-
 [epub|type~="dedication"] header p{
 	font-variant: small-caps;
 }
 
-[epub|type~="dedication"] header span{
-	font-size: smaller;
-}
-
 [epub|type~="dedication"] header [epub|type~="z3998:personal-name"]{
-	display: block;
 	font-size: larger;
-	margin-bottom: .5em;
-	margin-top: .5em;
-}
-
-[epub|type~="dedication"] p:nth-of-type(1){
-	margin-bottom: .5em;
 }
 
 [epub|type~="dedication"] p:nth-of-type(2){
@@ -52,19 +37,9 @@ footer{
 [epub|type~="dedication"] [epub|type~="z3998:signature"]{
 	margin-right: 2em;
 }
-
-[epub|type~="dedication"] [epub|type~="se:letter.dateline"]{
-	font-size: smaller;
-	margin-top: .5em;
-	text-align: initial;
-}
 /* End dedication */
 
 /* Custom */
-[id="the-old-english-baron"] strong:last-of-type{
-	text-transform: uppercase;
-}
-
 [id="the-old-english-baron"] blockquote:nth-of-type(6) [epub|type~="z3998:salutation"]{
 	font-variant: normal;
 }
