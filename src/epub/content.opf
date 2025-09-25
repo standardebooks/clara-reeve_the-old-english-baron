@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/clara-reeve/the-old-english-baron</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2025-09-25T21:27:24Z</dc:date>
+		<meta property="dcterms:modified">2025-09-25T21:27:24Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -36,6 +36,7 @@
 		<dc:title id="fulltitle">The Old English Baron: A Gothic Story</dc:title>
 		<meta property="file-as" refines="#fulltitle">Old English Baron, The</meta>
 		<meta property="title-type" refines="#fulltitle">extended</meta>
+		<meta property="dcterms:alternative" refines="#title">The Champion of Virtue</meta>
 		<dc:subject id="subject-1">Historical fiction</dc:subject>
 		<dc:subject id="subject-2">Inheritance and succession -- Fiction</dc:subject>
 		<dc:subject id="subject-3">England -- Fiction</dc:subject>
@@ -55,17 +56,17 @@
 		<meta property="authority" refines="#subject-6">LCSH</meta>
 		<meta property="term" refines="#subject-6">Unknown</meta>
 		<meta property="se:subject">Fiction</meta>
-		<dc:description id="description">An aging knight returns home after years of service to discover the tragic death of his friend.</dc:description>
+		<dc:description id="description">An aging knight returns home after years of service only to learn of his friend’s tragic death.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;The story opens with Sir Phillip Harclay returning to England after years of foreign service to find his friend Arthur Lord Lovel dead. Harclay discovers the estate inherited by his cousin Walter, who sold the family castle to Baron Fitz-Owen. Among the baron’s own children, Harclay takes notice of the adopted son Edmund, a peasant from the nearby village. The knight feels an immediate connection with the child and offers to adopt him as his own. From there, the tale continues with a mix of adventure, mystery, romance, and the supernatural, exposing the tragic fate of the Lovel family.&lt;/p&gt;
-			&lt;p&gt;&lt;i&gt;The Old English Baron&lt;/i&gt; was an influential, early Gothic novel. First published anonymously as &lt;i&gt;The Champion of Virtue&lt;/i&gt; in 1777, but republished a year later under the current title and &lt;a href="https://standardebooks.org/ebooks/clara-reeve"&gt;Reeve’s&lt;/a&gt; own name. Written as an offspring of &lt;a href="https://standardebooks.org/ebooks/horace-walpole"&gt;Walpole’s&lt;/a&gt; &lt;a href="https://standardebooks.org/ebooks/horace-walpole/the-castle-of-otranto"&gt;&lt;i&gt;The Castle of Otranto&lt;/i&gt;&lt;/a&gt;, the novel follows a similar plot. It retains some of the ghostly tropes that define the genre, but avoids the more fantastical elements of the predecessor, to achieve Reeve’s stated goal “to unite the most attractive and interesting circumstances of the ancient Romance and modern Novel.”&lt;/p&gt;
+			&lt;p&gt;&lt;i&gt;The Old English Baron&lt;/i&gt; opens with Sir Phillip Harclay returning to England after years of foreign service to find his friend Arthur Lord Lovel dead, and the family castle sold to Baron Fitz-Owen. Among the baron’s children, Harclay takes notice of the adopted son Edmund, a peasant from the nearby village. The knight feels an immediate connection with the child and offers to adopt him as his own. From there, the tale continues with a mix of adventure, mystery, romance, and the supernatural, telling of the tragic fate of the Lovel family.&lt;/p&gt;
+			&lt;p&gt;&lt;i&gt;The Old English Baron&lt;/i&gt; is an influential early Gothic novel. It was first published anonymously in 1777 as &lt;i&gt;The Champion of Virtue&lt;/i&gt;, and a year later was republished under its current title and &lt;a href="https://standardebooks.org/ebooks/clara-reeve"&gt;Reeve’s&lt;/a&gt; name. Written as an offspring of &lt;a href="https://standardebooks.org/ebooks/horace-walpole"&gt;Walpole’s&lt;/a&gt; &lt;a href="https://standardebooks.org/ebooks/horace-walpole/the-castle-of-otranto"&gt;&lt;i&gt;The Castle of Otranto&lt;/i&gt;&lt;/a&gt;, the novel follows a similar plot. It retains some of the ghostly tropes that define the genre, but avoids the more fantastical elements of its spiritual predecessor, to achieve Reeve’s stated goal of “uniting the most attractive and interesting circumstances of the ancient romance and modern novel.”&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/5182</dc:source>
 		<dc:source>https://archive.org/details/oldenglishbaron01reevgoog/</dc:source>
 		<meta property="se:production-notes">The Project Gutenberg transcription modernized the dialog by introducing quotes and paragraph breaks where appropriate, which this production retains.</meta>
-		<meta property="se:word-count">WORD_COUNT</meta>
-		<meta property="se:reading-ease.flesch">READING_EASE</meta>
+		<meta property="se:word-count">55405</meta>
+		<meta property="se:reading-ease.flesch">66.27</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Old_English_Baron</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/clara-reeve_the-old-english-baron</meta>
 		<dc:creator id="author">Clara Reeve</dc:creator>
@@ -95,6 +96,9 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<dc:contributor id="producer-2">Lukas Bystricky</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Bystricky, Lukas</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
