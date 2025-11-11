@@ -65,7 +65,7 @@
 		<dc:source>https://www.gutenberg.org/ebooks/5182</dc:source>
 		<dc:source>https://archive.org/details/oldenglishbaron01reevgoog/</dc:source>
 		<meta property="se:production-notes">The Project Gutenberg transcription modernized the dialog by introducing quotes and paragraph breaks where appropriate, which this production retains.</meta>
-		<meta property="se:word-count">55405</meta>
+		<meta property="se:word-count">55406</meta>
 		<meta property="se:reading-ease.flesch">66.27</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Old_English_Baron</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/clara-reeve_the-old-english-baron</meta>
