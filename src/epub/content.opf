@@ -63,7 +63,7 @@
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/5182</dc:source>
-		<dc:source>https://archive.org/details/oldenglishbaron01reevgoog/</dc:source>
+		<dc:source>https://archive.org/details/oldenglishbaron01reevgoog</dc:source>
 		<meta property="se:production-notes">The Project Gutenberg transcription modernized the dialog by introducing quotes and paragraph breaks where appropriate, which this production retains.</meta>
 		<meta property="se:word-count">55122</meta>
 		<meta property="se:reading-ease.flesch">66.27</meta>
